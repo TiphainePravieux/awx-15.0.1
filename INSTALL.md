@@ -111,8 +111,8 @@ and add
    source awx/bin/activate  # activate the virtual env 
    sudo pip3 install wheel   # install wheel permissions
    sudo pip3 install ansible
-   sudo pip3 install docker
-   sudo pip3 install docker-compose
+   sudo pip3 install docker   # libary python pour ansible
+   sudo pip3 install docker-compose # pour les containers d'AWX
    cd installer/
    ansible-playbook -i inventory install.yml  # start the AWX install, the inventory is local
 ```
